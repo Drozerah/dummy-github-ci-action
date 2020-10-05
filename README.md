@@ -8,7 +8,7 @@ Table of Contents
 
 - [List of Packages](#list-of-packages)
 - [Author](#author)
-- [Lisence](#license)
+- [License](#license)
 
 
 List of Packages
