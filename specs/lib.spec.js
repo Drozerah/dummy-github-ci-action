@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const { describe } = require('mocha')
 const { expect } = require('chai')
 
