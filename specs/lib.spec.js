@@ -4,13 +4,13 @@ const { expect } = require('chai')
 
 const lib = require('../lib')
 
-describe('Check test suit', function () {
+describe('Check test suite', function () {
   it('should run', function () {
     return expect(true).to.be.true
   })
 })
 
-describe('Test suit for ƒ sayHello', function () {
+describe('Test suite for ƒ sayHello', function () {
   it('should be a string', function () {
     const arg = 'drozerah'
     return expect(lib.sayHello(arg)).to.be.a('string')

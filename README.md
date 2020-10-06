@@ -1,5 +1,6 @@
 ![CI](https://github.com/Drozerah/dummy-github-ci-action/workflows/CI/badge.svg)
 ![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)
+![nycrc config on GitHub](https://img.shields.io/nycrc/Drozerah/dummy-github-ci-action?config=.nycrc.json&label=coverage)
 # Dummy Github Continuous Integration Action
 
 Table of Contents
@@ -34,6 +35,9 @@ $ npm run eslint
 
 # Unit testing with Mocha
 $ npm test
+
+# Code Coverage with nyc
+$ npm run coverage
 ````
 
 
@@ -41,11 +45,12 @@ Continuous Integration
 ----------------------
 
 On `push` and `pull request` Github events we:
-
+- run action across different versions of node
 - clean and install dependencies 
 - build the source code if any
 - run eslint
-- run tests across different versions of node
+- run tests
+- run coverage
 
 List of Packages
 ----------------
