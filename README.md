@@ -1,8 +1,8 @@
 # Dummy Github Continuous Integration Action
 
+![CI](https://github.com/Drozerah/dummy-github-ci-action/workflows/Node.js%20CI/badge.svg)
+
 > Dummy repo for the sake of testing
-
-
 
 Table of Contents
 -----------------
