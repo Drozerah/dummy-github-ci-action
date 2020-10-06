@@ -1,8 +1,16 @@
 # Dummy Github Continuous Integration Action
 
-![CI](https://github.com/Drozerah/dummy-github-ci-action/workflows/Node.js%20CI/badge.svg)
+![CI](https://github.com/Drozerah/dummy-github-ci-action/workflows/CI/badge.svg)
 
 > Dummy repo for the sake of testing
+
+__Continuous Integration Steps:__
+
+On push and pull request events we:
+
+- clean and install dependencies 
+- build the source code if any
+- run tests across different versions of node
 
 Table of Contents
 -----------------
