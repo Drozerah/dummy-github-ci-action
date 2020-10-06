@@ -1,6 +1,7 @@
 ![CI](https://github.com/Drozerah/dummy-github-ci-action/workflows/CI/badge.svg)
 ![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)
 ![nycrc config on GitHub](https://img.shields.io/nycrc/Drozerah/dummy-github-ci-action?config=.nycrc.json&label=coverage)
+![Coverage](https://github.com/Drozerah/dummy-github-ci-action/workflows/Coverage/badge.svg)
 ![GitHub issues](https://img.shields.io/github/issues/Drozerah/dummy-github-ci-action)
 ![GitHub forks](https://img.shields.io/github/forks/Drozerah/dummy-github-ci-action)
 ![GitHub stars](https://img.shields.io/github/stars/Drozerah/dummy-github-ci-action)
