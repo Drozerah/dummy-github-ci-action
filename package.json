@@ -1,11 +1,11 @@
 {
   "name": "dummy-github-ci-action",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repository for testing Continuous Integration with Github Action",
   "main": "index.js",
   "scripts": {
     "test": "mocha './specs/*.spec.js'",
-    "coverage": "nyc npm run test",
+    "coverage": "nyc --check-coverage npm run test",
     "eslint": "eslint . --ext .js"
   },
   "keywords": [],

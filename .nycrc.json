@@ -2,7 +2,7 @@
   "include": "lib",
   "exclude": "specs",
   "check-coverage": true,
-  "lines": 50,
-  "functions": 10,
-  "statements": 10
+  "lines": 100,
+  "functions": 100,
+  "statements": 100
 }
