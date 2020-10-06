@@ -1,24 +1,51 @@
+![CI](https://github.com/Drozerah/dummy-github-ci-action/workflows/CI/badge.svg)
+![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)
 # Dummy Github Continuous Integration Action
 
-![CI](https://github.com/Drozerah/dummy-github-ci-action/workflows/CI/badge.svg)
+Table of Contents
+-----------------
 
-> Dummy repo for the sake of testing
+- [Description](#description)
+- [Installation and commands](#installation-and-commands)
+- [CI](#continuous-integration)
+- [List of Packages](#list-of-packages)
+- [Author](#author)
+- [License](#license)
 
-__Continuous Integration Steps:__
+Description
+-----------
+> Repository for testing Continuous Integration with Github Action
 
-On push and pull request events we:
+Installation and commands
+-------------------------
+
+````bash
+# Get a local version of this repository
+$ git clone https://github.com/Drozerah/dummy-github-ci-action.git
+
+# Then
+$ cd dummy-github-ci-action
+
+# Install
+$ npm install
+
+# JavaScript linter standard config with ESLint
+$ npm run eslint
+
+# Unit testing with Mocha
+$ npm test
+````
+
+
+Continuous Integration
+----------------------
+
+On `push` and `pull request` Github events we:
 
 - clean and install dependencies 
 - build the source code if any
 - run eslint
 - run tests across different versions of node
-
-Table of Contents
------------------
-
-- [List of Packages](#list-of-packages)
-- [Author](#author)
-- [License](#license)
 
 List of Packages
 ----------------
